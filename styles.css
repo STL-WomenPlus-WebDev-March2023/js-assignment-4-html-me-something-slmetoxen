@@ -1,1 +1,88 @@
 /* Write your CSS here! */
+/* Elements */
+body {
+    margin: 8px;
+    display: block;
+	background: linear-gradient(to right, rgb(0, 176, 155), rgb(150, 201, 61)) /*linear-gradient(to right, rgb(198, 255, 221), rgb(251, 215, 134), rgb(247, 121, 125))*//*rgb(199, 165, 199)*/ ;
+	font-family: 'Bitter', serif;
+	font-size: 16pt;
+	font-weight: 400;
+	color: #222;  
+	width: 98vw;
+	height: 100vh;
+	overflow-x: hidden; /* used to prevent unnecessary bottom scrolling */
+}
+header {
+ 	background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
+    text-align: center;
+	position: relative;
+	height: auto;
+	margin: 40px;
+	padding: 10px;
+}
+main {
+	display: flex;
+	flex-direction: column;  /* flexbox property */
+	position: relative;
+	width: 97vw;
+	margin: 10px 10px;
+	padding: 0px 90px 50px;
+    box-sizing: border-box;
+}
+footer{
+    color: red;
+	background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
+    height: auto;
+	width: 100 vw;
+	margin: 10px;
+	padding: 10px;
+}
+h1 { 
+	font-family: 'Satisfy', cursive;
+	font-size: 3.5rem;
+}
+p {
+    text-align: justify;
+}
+img {
+    width: 550px;    
+}
+hr {
+    height: .4rem;
+    background-color: rgb(176, 244, 244);
+    border: none;
+    margin: 20px 0px 0px;
+}
+a {
+    color: #073eac;
+    text-decoration: none; /*removes default underline */
+}
+a:hover {
+    color:rgb(4, 4, 122);
+}
+a:visited {
+    color: rgb(84, 34, 155);
+}
+
+/* Ids */
+#mainHeading {
+    color: red
+}
+#copyright {
+    text-align: center;
+}
+
+/* Classes  */
+.funParagraph {
+    color: green;
+    padding: 20px 220px 20px 800px;
+    background-color: rgb(176, 244, 244);   
+}
+.introImage {
+    float: left;
+    padding: 0px 220px 20px 80px;
+}
+.worldImage {
+    float: right;
+    padding: 45px 0px 0px 60px
+}
